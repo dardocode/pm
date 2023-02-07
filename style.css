@@ -1,0 +1,32 @@
+body{
+    color:#bb5083
+}
+
+.navbar-brand{
+    color:#bb5083;
+margin-right: 0;
+}
+
+.hero {
+    background: url('./assets/bg-1.png') no-repeat center;
+    background-size:cover;
+    padding: 3rem 1.5rem ;
+}
+
+#quien_soy{
+    background: url('./assets/bg-2.png') no-repeat center;
+    background-size:cover;
+    padding: 3rem 1.5rem ;
+}
+
+#ayudarte{
+    background: url('./assets/bg-1.png') no-repeat center;
+    background-size:cover;
+    padding: 3rem 1.5rem ;
+}
+
+#contacto{
+    background: url('./assets/bg-2.png') no-repeat center;
+    background-size:cover;
+    padding: 3rem 1.5rem ;
+}
