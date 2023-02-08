@@ -1,10 +1,14 @@
 body{
-    color:#bb5083
+    color:#bb5083;
+    font-family: 'Quicksand', sans-serif;
+
 }
 
 .navbar-brand{
     color:#bb5083;
 margin-right: 0;
+
+font-family: 'Yellowtail', cursive;
 }
 
 .hero {
