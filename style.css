@@ -1,14 +1,30 @@
 body{
-    color:#bb5083;
+    color:#ba4f83;
     font-family: 'Quicksand', sans-serif;
 
+}
+
+footer{
+    background:#bb5083 !important;
+    color: #fff;
 }
 
 .navbar-brand{
     color:#bb5083;
 margin-right: 0;
-
 font-family: 'Yellowtail', cursive;
+}
+
+.nav-link{
+    color:#bb5083;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    background:#bb5083;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #fff;
+    border-radius: 10px;
 }
 
 .hero {
@@ -17,10 +33,19 @@ font-family: 'Yellowtail', cursive;
     padding: 3rem 1.5rem ;
 }
 
+.butterfly{
+    position: absolute;
+    background: url('./assets/mariposa.png') no-repeat right;
+    background-size: contain;
+    height: 20px;
+    width: 50px;
+}
+
 #quien_soy{
     background: url('./assets/bg-2.png') no-repeat center;
     background-size:cover;
     padding: 3rem 1.5rem ;
+    background: right 2rem top calc(3 * var(--linkheight)) / 15em var(--linkheight) no-repeat linear-gradient(#ccc, #ccc);
 }
 
 #ayudarte{
@@ -32,5 +57,14 @@ font-family: 'Yellowtail', cursive;
 #contacto{
     background: url('./assets/bg-2.png') no-repeat center;
     background-size:cover;
-    padding: 3rem 1.5rem ;
 }
+
+.email{
+    font-size: 1rem;
+}
+
+@media (min-width: 800px) {
+    .email{
+        font-size: 1.2rem;
+    }
+  }
