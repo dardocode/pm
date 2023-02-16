@@ -39,11 +39,6 @@ font-family: 'Yellowtail', cursive;
     float: right;
     margin: 0 auto;
     width: 90%;
-    @media (min-width: 800px) {
-        {
-         width:75%;
-        }
-      }
 }
 
 #quien_soy{
@@ -72,4 +67,8 @@ font-family: 'Yellowtail', cursive;
     .email{
         font-size: 1.2rem;
     }
-  }
+
+    .butterfly{
+     width:75%;
+    }
+}
