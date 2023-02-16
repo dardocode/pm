@@ -38,7 +38,12 @@ font-family: 'Yellowtail', cursive;
     position: absolute;
     float: right;
     margin: 0 auto;
-    width: 66%;
+    width: 90%;
+    @media (min-width: 800px) {
+        {
+         width:75%;
+        }
+      }
 }
 
 #quien_soy{
