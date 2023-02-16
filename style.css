@@ -34,11 +34,11 @@ font-family: 'Yellowtail', cursive;
 }
 
 .butterfly{
+    z-index: 2;
     position: absolute;
-    background: url('./assets/mariposa.png') no-repeat right;
-    background-size: contain;
-    height: 20px;
-    width: 50px;
+    float: right;
+    margin: 0 auto;
+    width: 66%;
 }
 
 #quien_soy{
